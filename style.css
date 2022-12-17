@@ -94,17 +94,13 @@ button:hover{
     }
 }
 
-
-@media(max-width: 290px){
+@media(max-width: 317px){
     body{
         height: 100vh;
-        background-size: cover;
-        display:flex;
-        align-items: center;
-        justify-content:center;
     }
+    
     .but{
-        font-size: 121px;
+        font-size: 111px;
     }
     
     .but1{
@@ -113,6 +109,24 @@ button:hover{
     }
     
     button:hover{
-        font-size: 151px;
+        font-size: 131px;
+    }
+}
+
+@media(max-width: 250px){
+    body{
+        height: 100vh;
+    }
+    .but{
+        font-size: 101px;
+    }
+    
+    .but1{
+        height: 30vh;
+        width: 30vh;
+    }
+    
+    button:hover{
+        font-size: 121px;
     }
 }
