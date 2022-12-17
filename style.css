@@ -40,25 +40,25 @@ button:hover{
     font-size: 351px;
 }
 
-@media only screen and (min-width: 315px){
+@media(max-width: 761px){
     body{
         height: 100vh;
     }
     .but{
-        font-size: 121px;
+        font-size: 201px;
     }
     
     .but1{
-        height: 50vh;
-        width: 50vh;
+        height: 80vh;
+        width: 80vh;
     }
     
     button:hover{
-        font-size: 151px;
+        font-size: 221px;
     }
 }
 
-@media only screen and (min-width: 375px){
+@media(max-width: 513px){
     body{
         height: 100vh;
     }
@@ -76,7 +76,7 @@ button:hover{
     }
 }
 
-@media only screen and (min-width: 300px){
+@media(max-width: 414px){
     body{
         height: 100vh;
     }
@@ -87,6 +87,29 @@ button:hover{
     .but1{
         height: 50vh;
         width: 50vh;
+    }
+    
+    button:hover{
+        font-size: 151px;
+    }
+}
+
+
+@media(max-width: 300px){
+    body{
+        height: 100vh;
+        background-size: cover;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .but{
+        font-size: 121px;
+    }
+    
+    .but1{
+        height: 40vh;
+        width: 40vh;
     }
     
     button:hover{
