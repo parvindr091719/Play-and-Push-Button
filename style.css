@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: arial;
+    font-size: large;
+    margin: 0;
+    background-image: linear-gradient(orange, white, green);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.but{
+    background-color: #4300fc;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 221px;
+    cursor: pointer;
+}
+
+.but1{
+    height: 90vh;
+    width: 90vh;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+button:hover{
+    background-image: linear-gradient(rgb(47, 0, 255), rgb(248, 243, 243), rgb(68, 3, 248),  rgb(248, 243, 243), rgb(68, 3, 248));
+    font-size: 351px;
+}
+
+@media only screen and (max-width: 315px){
+    body{
+        height: 100vh;
+    }
+    .but{
+        font-size: 121px;
+    }
+    
+    .but1{
+        height: 50vh;
+        width: 50vh;
+    }
+    
+    button:hover{
+        font-size: 151px;
+    }
+}
+
+@media only screen and (min-width: 415px){
+    body{
+        height: 100vh;
+    }
+    .but{
+        font-size: 171px;
+    }
+    
+    .but1{
+        height: 70vh;
+        width: 70vh;
+    }
+    
+    button:hover{
+        font-size: 191px;
+    }
+}
