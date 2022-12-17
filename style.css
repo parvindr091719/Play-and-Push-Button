@@ -75,3 +75,21 @@ button:hover{
         font-size: 191px;
     }
 }
+
+@media only screen and (min-width: 300px){
+    body{
+        height: 100vh;
+    }
+    .but{
+        font-size: 121px;
+    }
+    
+    .but1{
+        height: 50vh;
+        width: 50vh;
+    }
+    
+    button:hover{
+        font-size: 151px;
+    }
+}
